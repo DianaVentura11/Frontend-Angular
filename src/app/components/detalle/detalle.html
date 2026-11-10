@@ -1,0 +1,31 @@
+<div class="detalle-contenedor">
+
+  @if (producto(); as item) {
+
+    <div class="detalle-card">
+
+      <img [src]="item.thumbnail" [alt]="item.title">
+
+      <div class="contenido">
+
+        <h1>{{ item.title }}</h1>
+
+        <p class="categoria">{{ item.category }}</p>
+
+        <p>{{ item.description }}</p>
+
+        <h2>${{ item.price }}</h2>
+
+        <p>Calificación: ⭐ {{ item.rating }}</p>
+
+        <a routerLink="/catalogo">Volver al catálogo</a>
+
+      </div>
+
+    </div>
+
+  } @else {
+    <p class="cargando">Cargando información del producto...</p>
+  }
+
+</div>

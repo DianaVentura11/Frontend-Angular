@@ -1,0 +1,51 @@
+
+<div class="contenedor">
+
+  <header class="encabezado">
+    <h1>Mi Catálogo</h1>
+    <p>Encuentra los productos que estás buscando</p>
+  </header>
+
+  <input
+    type="text"
+    placeholder="Buscar producto..."
+    [value]="busqueda()"
+    (input)="busqueda.set($any($event.target).value)"
+    class="buscador"
+  >
+
+  @if (cargando()) {
+    <p class="mensaje">Cargando productos...</p>
+  }
+
+  @if (!cargando() && productosFiltrados().length === 0) {
+    <p class="mensaje">No se encontraron productos.</p>
+  }
+
+  <div class="productos">
+
+    @for (producto of productosFiltrados(); track producto.id) {
+
+      <div class="tarjeta">
+
+        <img [src]="producto.thumbnail" [alt]="producto.title">
+
+        <div class="informacion">
+          <h3>{{ producto.title }}</h3>
+
+          <p>{{ producto.category }}</p>
+
+          <strong>${{ producto.price }}</strong>
+
+          <a [routerLink]="['/detalle', producto.id]">
+            Ver detalles
+          </a>
+        </div>
+
+      </div>
+
+    }
+
+  </div>
+
+</div>

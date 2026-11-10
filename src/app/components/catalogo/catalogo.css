@@ -1,0 +1,91 @@
+
+.contenedor {
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.encabezado {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.encabezado h1 {
+  color: #d62828;
+  font-size: 32px;
+}
+
+.buscador {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  padding: 13px;
+  margin: 20px auto 35px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 22px;
+}
+
+.tarjeta {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 3px 10px #00000012;
+  transition: transform 0.2s;
+}
+
+.tarjeta:hover {
+  transform: translateY(-5px);
+}
+
+.tarjeta img {
+  width: 100%;
+  height: 190px;
+  object-fit: contain;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.informacion {
+  padding: 15px;
+}
+
+.informacion h3 {
+  font-size: 17px;
+  min-height: 40px;
+}
+
+.informacion p {
+  color: #777;
+}
+
+.informacion strong {
+  display: block;
+  margin: 15px 0;
+  color: #d62828;
+  font-size: 20px;
+}
+
+.informacion a {
+  display: block;
+  text-align: center;
+  background: #d62828;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 7px;
+}
+
+.mensaje {
+  text-align: center;
+  padding: 20px;
+}
