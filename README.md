@@ -1,59 +1,73 @@
-# CatalogoAngular
+# Catálogo de productos - Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.2.6.
+## Descripción
+Este proyecto consiste en una aplicación web desarrollada con Angular que permite consultar un catálogo de productos utilizando una API pública.
 
-## Development server
+El usuario puede visualizar los productos, buscar por nombre y consultar los detalles de cada uno.
 
-To start a local development server, run:
+## Tecnologías utilizadas
+- Angular
+- TypeScript
+- HTML5
+- CSS3
+- Angular Router
+- Signals
+- DummyJSON API
+
+## Funcionalidades
+- Visualización de productos.
+- Búsqueda de productos por nombre.
+- Consulta de información detallada.
+- Navegación entre catálogo y detalles.
+- Consumo de una API REST.
+
+## API utilizada
+[DummyJSON - Products](https://dummyjson.com/products)
+
+## Instalación y ejecución
+
+1. Clonar el repositorio.
+2. Instalar las dependencias:
+
+```bash
+npm install
+```
+
+3. Ejecutar el proyecto:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+4. Abrir en el navegador:
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```text
+http://localhost:4200
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Métricas del proyecto
 
-```bash
-ng generate --help
-```
+| Métrica | Resultado |
+|---|---|
+| Tiempo de desarrollo | 1 hora y 10 minutos |
+| Líneas de código | 336 |
+| Bundle de producción | 271.62 kB (bundle inicial del navegador). |
+| Lighthouse - Performance | 89 |
+| Lighthouse - Accessibility | 85 |
+| Lighthouse - Best Practices | 100 |
+| Lighthouse - SEO | 91|
 
-## Building
+## Capturas de pantalla
 
-To build the project run:
+### Catálogo de productos
+<img width="921" height="515" alt="image" src="https://github.com/user-attachments/assets/143f7509-aaa6-4411-9d46-3906ab541498" />
 
-```bash
-ng build
-```
+### Detalle del producto
+<img width="1356" height="759" alt="image" src="https://github.com/user-attachments/assets/9504f741-94e1-4f0f-8bfe-41b8b9f8713b" />
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+### Lighthouse
+<img width="921" height="518" alt="image" src="https://github.com/user-attachments/assets/ed47e98b-581f-485c-b38f-dcbae4972f1b" />
 
-## Running unit tests
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Framework
+Angular es un framework de desarrollo frontend mantenido por Google. Utiliza TypeScript y permite construir aplicaciones web mediante componentes, servicios y rutas.
