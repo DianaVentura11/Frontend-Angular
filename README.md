@@ -73,7 +73,7 @@ http://localhost:4200
 | Característica | Resultado |
 |---|---|
 | **Framework** | Angular |
-| **Reactividad** | Signals, servicios y RxJS. |
+| **Reactividad** | Actualización automática de la vista cuando cambian los datos mediante el sistema de detección de cambios |
 | **Renderizado** | CSR por defecto; también permite SSR y SSG (prerenderizado). |
 | **Bundle (kB)** | 271.62 kB (bundle inicial de producción). |
 | **Lighthouse** | Performance: 89, Accesibilidad: 85, Buenas prácticas: 100, SEO: 91. |
