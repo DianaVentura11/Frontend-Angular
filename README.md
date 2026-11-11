@@ -68,6 +68,17 @@ http://localhost:4200
 ### Lighthouse
 <img width="921" height="518" alt="image" src="https://github.com/user-attachments/assets/ed47e98b-581f-485c-b38f-dcbae4972f1b" />
 
+## MATRIZ COMPARATIVA
+
+| Característica | Resultado |
+|---|---|
+| **Framework** | Angular |
+| **Reactividad** | Signals, servicios y RxJS. |
+| **Renderizado** | CSR por defecto; también permite SSR y SSG (prerenderizado). |
+| **Bundle (kB)** | 271.62 kB (bundle inicial de producción). |
+| **Lighthouse** | Performance: 89, Accesibilidad: 85, Buenas prácticas: 100, SEO: 91. |
+| **Curva de aprendizaje** | Media-alta, debido a TypeScript, componentes, servicios, inyección de dependencias y su estructura. |
+| **Caso de uso ideal** | Aplicaciones empresariales, sistemas administrativos, dashboards y aplicaciones web grandes. |
 
 ## Framework
 Angular es un framework de desarrollo frontend mantenido por Google. Utiliza TypeScript y permite construir aplicaciones web mediante componentes, servicios y rutas.
