@@ -82,3 +82,8 @@ http://localhost:4200
 
 ## Framework
 Angular es un framework de desarrollo frontend mantenido por Google. Utiliza TypeScript y permite construir aplicaciones web mediante componentes, servicios y rutas.
+
+## INTEGRANTES
+Castillo Cenobio José Angel
+González Ventura Diana Isabel
+Orta Pedroza Andrea Elizabeth
